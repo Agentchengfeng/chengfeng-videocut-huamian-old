@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>画面</title>
+<style>
+html,body{margin:0;background:#000;overflow:hidden}
+/* 整个画面。字体按顺序找，前面的没装就用后面的；换字体改这里 */
+#台{position:absolute;left:0;top:0;overflow:hidden;background:#0b0b0d;color:#f2ede3;
+  font-family:"PingFang SC","Noto Sans CJK SC","Source Han Sans SC","Microsoft YaHei",sans-serif}
+#画,.层{position:absolute;left:0;top:0;width:100%;height:100%}
+.层>*{position:absolute;left:0;top:0;white-space:nowrap}
+#字幕{position:absolute;left:4%;right:4%;bottom:5%;text-align:center;font-size:60px;font-weight:700;line-height:1.25;white-space:nowrap;overflow:hidden;
+  text-shadow:0 2px 10px rgba(0,0,0,.85)}
+</style></head>
+<body>
+<div id="台"><div id="画"></div><div id="字幕"></div></div>
+<script src="data.js"></script>
+<script src="引擎.js"></script>
+<script src="镜头.js"></script>
+</body></html>

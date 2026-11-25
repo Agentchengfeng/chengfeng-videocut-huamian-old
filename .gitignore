@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+*.tgz
+.env
+.env.*
+__pycache__/
+*.pyc
+看/
+*-总览.jpg
+*-检查.txt
+示例.mp4

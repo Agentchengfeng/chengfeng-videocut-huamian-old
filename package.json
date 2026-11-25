@@ -1,0 +1,23 @@
+{
+  "name": "chengfeng-videocut-huamian",
+  "version": "0.1.0",
+  "description": "Agent Skill that draws explainer-video visuals as code, times every shot to the voiceover's per-character timeline, renders frame by frame with headless Chrome, and outputs an mp4 with voice and subtitles",
+  "license": "Apache-2.0",
+  "author": "成峰 / AI产品自由",
+  "bin": {
+    "chengfeng-videocut-huamian": "bin/install.js"
+  },
+  "files": ["bin/", "skills/", "README.md", "LICENSE", "NOTICE.md", "CITATION.cff", "SKILL.md"],
+  "keywords": ["agent", "agent-skill", "skill", "video", "motion-graphics", "explainer", "playwright", "ffmpeg"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agentchengfeng/chengfeng-videocut-huamian.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Agentchengfeng/chengfeng-videocut-huamian/issues"
+  },
+  "homepage": "https://github.com/Agentchengfeng/chengfeng-videocut-huamian#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}

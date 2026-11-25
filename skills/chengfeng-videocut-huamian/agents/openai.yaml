@@ -1,0 +1,4 @@
+interface:
+  display_name: "成峰出画面"
+  short_description: "照分镜稿用代码画讲解视频的画面，按配音每个字的时间卡点，逐帧出片、混口播、带字幕"
+  default_prompt: "请用 $chengfeng-videocut-huamian 照这份分镜稿出画面：先写镜头表、对上配音的时间，一镜一镜写画面、边做边截图看，最后出带口播和字幕的基础片，再跑检查。"
